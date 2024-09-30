@@ -51,3 +51,20 @@
     text-align: left;
     color: var(--first-color);
 }
+
+/*Empieza spacio css Angela Carrasco*/
+.box2 {
+    background-color: #8447e9;
+    width: 698px;
+    height: 2195px;
+    padding: 0;
+    display:flex;
+    
+ }
+
+.CREAM-IMG {
+    width: 522px;
+    height: 341px;
+    flex-grow: 0;
+}
+/*Acaba espacio css Angela Carrasco*/
