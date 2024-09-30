@@ -3,3 +3,23 @@
 
 
 }
+
+.button-1 {
+    width: 250px;
+    height: 60px;
+    padding: 20px 32px;
+    display: flex;
+    color: white;
+    background-color:var(--first-color);
+}
+
+.Programacion {
+    width: 226px;
+    height: 39px;
+    flex-grow: 0;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: var(--first-color);
+}
