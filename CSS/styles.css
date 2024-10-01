@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   padding: 10px;
   justify-content: space-between;
-  align-items: center;
+
 }
 
 .list {
@@ -36,10 +36,12 @@
 }
 
 .foot {
+  display: flex;
   background-color: black;
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  padding-top: 40px;
   color: #8447e9;
+  align-items: center;
 }
 
 .button-1 {
@@ -69,12 +71,20 @@
   height: 2195px;
   padding: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 200;
+  color: white;
+  
+
 }
 
 .CREAM-IMG {
   width: 522px;
   height: 341px;
   flex-grow: 0;
+
 }
 
 /*Acaba espacio css Angela Carrasco*/
@@ -123,8 +133,6 @@
 }
 /*fin silvia*/
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
-@media (min-width: 1024px) {
-}
+@media (min-width: 1024px) {}
