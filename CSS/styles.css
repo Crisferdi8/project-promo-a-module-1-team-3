@@ -1,86 +1,90 @@
 :root {
-    --first-color: #8447e9;
-
-
+  --first-color: #8447e9;
 }
 
 .main-nav {
-    display: none;
+  display: none;
 }
 
 .title {
-    color: #8447e9;
-    display: flex;
-    align-items: center;
+  color: #8447e9;
+  display: flex;
+  align-items: center;
 }
 
 .header {
-    display: flex;
-    background-color: white;
-    flex-wrap: wrap;
-    padding: 10px;
-    justify-content: space-between;
-    align-items: center;
-
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .list {
-    display: flex;
-    justify-content: flex-end;
-
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menuhambur {
-    display: inline-flex;
-    height: 25px;
-    width: 25px;
-    margin-top: 0;
-    position: relative;
-    top: 10px;
-
+  display: inline-flex;
+  height: 25px;
+  width: 25px;
+  margin-top: 0;
+  position: relative;
+  top: 10px;
 }
 
 .foot {
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    color: #8447e9;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color: #8447e9;
 }
 
 .button-1 {
-    width: 250px;
-    height: 60px;
-    padding: 20px 32px;
-    display: flex;
-    color: white;
-    background-color: var(--first-color);
+  width: 250px;
+  height: 60px;
+  padding: 20px 32px;
+  display: flex;
+  color: white;
+  background-color: var(--first-color);
 }
 
 .Programacion {
-    width: 226px;
-    height: 39px;
-    flex-grow: 0;
-    font-size: 32px;
-    font-weight: 500;
-    letter-spacing: -0.48px;
-    text-align: left;
-    color: var(--first-color);
+  width: 226px;
+  height: 39px;
+  flex-grow: 0;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  text-align: left;
+  color: var(--first-color);
 }
 
 /*Empieza spacio css Angela Carrasco*/
 .box2 {
-    background-color: #8447e9;
-    width: 698px;
-    height: 2195px;
-    padding: 0;
-    display: flex;
-
+  background-color: #8447e9;
+  width: 698px;
+  height: 2195px;
+  padding: 0;
+  display: flex;
 }
 
 .CREAM-IMG {
-    width: 522px;
-    height: 341px;
-    flex-grow: 0;
+  width: 522px;
+  height: 341px;
+  flex-grow: 0;
 }
 
 /*Acaba espacio css Angela Carrasco*/
+
+/*Espacio Silvia*/
+
+/*fin silvia*/
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
