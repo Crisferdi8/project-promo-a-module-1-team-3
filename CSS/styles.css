@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   padding: 10px;
   justify-content: space-between;
-  align-items: center;
+
 }
 
 .list {
@@ -36,10 +36,12 @@
 }
 
 .foot {
+  display: flex;
   background-color: black;
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  padding-top: 40px;
   color: #8447e9;
+  align-items: center;
 }
 
 .button-1 {
@@ -91,8 +93,6 @@
 
 /*fin silvia*/
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
-@media (min-width: 1024px) {
-}
+@media (min-width: 1024px) {}
