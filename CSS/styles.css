@@ -69,12 +69,15 @@
   height: 2195px;
   padding: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .CREAM-IMG {
   width: 522px;
   height: 341px;
   flex-grow: 0;
+
 }
 
 /*Acaba espacio css Angela Carrasco*/
