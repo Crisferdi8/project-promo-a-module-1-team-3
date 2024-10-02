@@ -7,7 +7,7 @@
 }
 
 .title {
-  color: #8447e9;
+  color: var (--first-color);
   display: flex;
   align-items: center;
 }
@@ -76,7 +76,7 @@
   font-size: 32px;
   font-weight: 200;
   color: white;
-  
+
 
 }
 
@@ -89,9 +89,9 @@
 
 
 .brandings {
-    font-size: 16px;
-    
-        
+  font-size: 16px;
+
+
 }
 
 .first-title {
@@ -103,9 +103,10 @@
 }
 
 .titles {
-    font-size: 32px;
-    
+  font-size: 32px;
+
 }
+
 /*Acaba espacio css Angela Carrasco*/
 
 /*Espacio Silvia*/
@@ -117,21 +118,25 @@
   font-size: 40px;
   text-align: left;
 }
+
 .articles {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-left: 5px;
 }
+
 .button-news {
   margin: 30px;
 }
+
 .button-exp {
   text-decoration: none;
   border: 1px solid var(--first-color);
   color: var(--first-color);
   padding: 8px 26px;
 }
+
 .gota {
   background-image: url("../images/drop-of-water-inject-water-drip-45229.jpeg");
   background-size: cover;
@@ -143,6 +148,7 @@
 .contactanos-final {
   display: none;
 }
+
 .gota p {
   color: white;
   font-weight: bold;
@@ -150,6 +156,7 @@
   position: absolute;
   margin: 60px 12px;
 }
+
 /*fin silvia*/
 
 @media (min-width: 768px) {}
