@@ -47,22 +47,52 @@
 .button-1 {
   width: 250px;
   height: 60px;
-  padding: 20px 32px;
   display: flex;
-  color: white;
   background-color: var(--first-color);
+  align-items:center;
+  justify-content: center;
+  margin: 85px;
 }
 
-.Programacion {
+.button-explore {
+color: white;
+text-decoration: none;
+padding: 8px 15px;
+text-align: center;
+}
+
+.box1-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+ }
+
+ .first-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  margin: 35px;
+ }
+
+.Big-titles {
   width: 226px;
   height: 39px;
   flex-grow: 0;
   font-size: 32px;
   font-weight: 500;
   letter-spacing: -0.48px;
-  text-align: left;
   color: var(--first-color);
+  margin: 10px;
+  text-align: center;
 }
+
+.Leer {
+  color: black;
+  margin: 10px;
+}
+
 
 /*Empieza spacio css Angela Carrasco*/
 .box2 {
