@@ -90,10 +90,16 @@
 
 .brandings {
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
-
     
+        
+}
+
+.first-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
 }
 
 .titles {
