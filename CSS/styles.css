@@ -7,7 +7,7 @@
 }
 
 .title {
-  color: var (--first-color);
+  color: var(--first-color);
   display: flex;
   align-items: center;
 }
