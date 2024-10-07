@@ -28,41 +28,27 @@
 .box2 {
   background-color: #8447e9;
   width: 100%;
-  overflow: hidden;
-  margin: none;
-  //justify-content: center;//
-  //display: flex;//
-  //flex-direction: column;//
-  //text-align: center;//
-  // padding: 0;
-  // flex-direction: column;
-  // align-items: center;
+}
 
+.mother {
+  display: flex;
+  justify-content: center;
+  width: 10%;
 }
 
 .imagesbox2 {
-  //display: flex;//
-  //align-items: center;//
-  //width: 50%;//
-  //height: 100px;//
-  //padding: 10px;//
-  //display: block;//
-  margin-left: 10%;
-  margin-right: 25%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  max-width: 50%;
+  width: 100%;
 
 }
 
+
 .button-end {
-  //nose como quitarle shadow al border ni si la manera de centrar usando el margin es valida
+  //de que manera centro el boton sin usar margin 
   padding: 12px;
   color: #ffffff;
   background-color: #8447e9;
-  border: 6;
-  border-color: #ffffff;
   margin-bottom: 5%;
   margin-top: 10%;
   margin-left: 30%;
+  border:1px solid #ffffff
 }
