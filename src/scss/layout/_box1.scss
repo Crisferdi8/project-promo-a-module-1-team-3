@@ -13,11 +13,10 @@
 
 .button {
   display: flex;
+  justify-content: center;
 
   @media (min-width: 768px) {
 
-    align-content: center;
-    background-color: lightcoral;
     padding: 30px;
 
   }
