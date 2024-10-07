@@ -1,6 +1,17 @@
+.container-proyects{
+  width: 100%;
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 50px;
+  }
+}
+
 .titles {
   font-size: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 10%;
 }
 
@@ -11,24 +22,29 @@
 }
 
 .title-proyect2 {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 20%;
   margin-block-end: 13%;
   margin-left: 20%;
 }
+ .title-proyect2 p{
+  display: none;
+  @media (min-width: 768px){
+    display: inline-block;
+  }
+ }
 
 .brandings {
   font-size: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 0.4;
   margin: 10%;
 }
 
 .box2 {
-  background-color: #8447E9;
+  background-color: #8447e9;
   width: 100%;
   overflow: hidden;
-  margin: none;
   //justify-content: center;//
   //display: flex;//
   //flex-direction: column;//
@@ -38,28 +54,28 @@
   // align-items: center;
 }
 
-.imagesbox2 {
-  //display: flex;//
-  //align-items: center;//
-  //width: 50%;//
-  //height: 100px;//
-  //padding: 10px;//
-  //display: block;//
-  margin-left: 10%;
-  margin-right: 25%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  max-width: 50%;
-}
+// .imagesbox2 {
+//   // width: 10px;
+//   //display: flex;//
+//   //align-items: center;//
+//   //width: 50%;//
+//   //height: 100px;//
+//   //padding: 10px;//
+//   //display: block;//
+//   // margin-left: 10%;
+//   // margin-right: 25%;
+//   // margin-top: 2%;
+//   // margin-bottom: 2%;
+//   // max-width: 50%;
+// }
 
 .button-end {
   //nose como quitarle shadow al border ni si la manera de centrar usando el margin es valida
   padding: 12px;
-  color: #FFFFFF;
-  background-color: #8447E9;
-  border: 6;
-  border-color: #FFFFFF;
-  margin-bottom: 5%;
-  margin-top: 10%;
-  margin-left: 30%;
+  color: #ffffff;
+  background-color: #8447e9;
+  border: 1px solid white;
+  border-color: #ffffff;
+   margin-bottom: 40px;
+   margin-left: 20px
 }
