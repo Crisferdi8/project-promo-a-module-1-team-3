@@ -1,50 +1,74 @@
 .button-1 {
-    width: 250px;
-    height: 60px;
-    display: flex;
-    background-color: var(--first-color);
-    align-items:center;
-    justify-content: center;
-    margin: 85px;
+  width: 250px;
+  height: 60px;
+  display: flex;
+  background-color: var(--first-color);
+  align-items: center;
+  justify-content: center;
+
+
+
+
+}
+
+.button {
+  display: flex;
+
+  @media (min-width: 768px) {
+
+    align-content: center;
+    background-color: lightcoral;
+    padding: 30px;
+
   }
-  
-  .button-explore {
+}
+
+.button-explore {
   color: white;
   text-decoration: none;
   padding: 8px 15px;
   text-align: center;
+}
+
+.box1-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+
   }
-  
-  .box1-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 5px;
-   }
-  
-   .first-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 5px;
-    margin: 35px;
-   }
-  
-  .Big-titles {
-    width: 226px;
-    height: 39px;
-    flex-grow: 0;
-    font-size: 32px;
-    font-weight: 500;
-    letter-spacing: -0.48px;
-    color: var(--first-color);
-    margin: 10px;
-    text-align: center;
+}
+
+.first-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  margin: 35px;
+
+  @media (min-width: 768px) {
+    margin: 5px;
   }
-  
-  .Leer {
-    color: black;
-    margin: 10px;
-    font-weight: 600;
-    font-size: 15px;
-  }
+}
+
+.Big-titles {
+  width: 226px;
+  height: 39px;
+  flex-grow: 0;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.48px;
+  color: var(--first-color);
+  margin: 10px;
+  text-align: center;
+}
+
+.Leer {
+  color: black;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
