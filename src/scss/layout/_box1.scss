@@ -6,9 +6,6 @@
   align-items: center;
   justify-content: center;
 
-
-
-
 }
 
 .button {
@@ -29,6 +26,15 @@
   text-align: center;
 }
 
+.button-1 h2 {
+  margin: 10px;
+}
+
+.main-title {
+display: flex;
+}
+
+
 .box1-main {
   display: flex;
   flex-direction: column;
@@ -37,6 +43,7 @@
 
   @media (min-width: 768px) {
     flex-direction: row;
+    justify-content: space-around;
 
   }
 }
@@ -70,4 +77,13 @@
   margin: 10px;
   font-weight: 600;
   font-size: 15px;
+}
+
+.pservicios {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: inline-block;
+    text-align: justify;
+  }
 }
