@@ -1,5 +1,14 @@
-.container-proyects{
+.imagesbox2 {
+  padding: 40px;
+}
+
+.imagesbox2 img {
   width: 100%;
+}
+
+.container-proyects {
+  width: 100%;
+
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -27,12 +36,14 @@
   margin-block-end: 13%;
   margin-left: 20%;
 }
- .title-proyect2 p{
+
+.title-proyect2 p {
   display: none;
-  @media (min-width: 768px){
+
+  @media (min-width: 768px) {
     display: inline-block;
   }
- }
+}
 
 .brandings {
   font-size: 16px;
@@ -54,20 +65,7 @@
   // align-items: center;
 }
 
-// .imagesbox2 {
-//   // width: 10px;
-//   //display: flex;//
-//   //align-items: center;//
-//   //width: 50%;//
-//   //height: 100px;//
-//   //padding: 10px;//
-//   //display: block;//
-//   // margin-left: 10%;
-//   // margin-right: 25%;
-//   // margin-top: 2%;
-//   // margin-bottom: 2%;
-//   // max-width: 50%;
-// }
+
 
 .button-end {
   //nose como quitarle shadow al border ni si la manera de centrar usando el margin es valida
@@ -76,6 +74,6 @@
   background-color: #8447e9;
   border: 1px solid white;
   border-color: #ffffff;
-   margin-bottom: 40px;
-   margin-left: 20px
+  margin-bottom: 40px;
+  margin-left: 20px
 }
