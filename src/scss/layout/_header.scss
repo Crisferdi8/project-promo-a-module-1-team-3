@@ -1,15 +1,25 @@
+.header {
+  background-color: white;
+  padding: 10px;
+}
+
+.header_div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .main-nav {
   display: none;
 
   @media (min-width: 768px) {
-    display: flex;
+    display: inline;
   }
 }
-.nav_ul {
-  @media (min-width: 768px) {
-    flex-direction: row;
-  }
-}
+// .nav_ul {
+//   @media (min-width: 768px) {
+//     justify-content: space-around;
+//   }
+// }
 
 .title {
   color: var(--first-color);
@@ -17,24 +27,15 @@
   align-items: center;
 }
 
-.header {
-  display: flex;
-  background-color: white;
-  padding: 10px;
-  justify-content: space-between;
-}
-
 // .list {
 //   display: flex;
-  
+
 // }
 
 .menuhambur {
-  display: inline-flex;
   height: 25px;
   width: 25px;
   margin-top: 0;
-
   top: 10px;
 
   @media (min-width: 768px) {
