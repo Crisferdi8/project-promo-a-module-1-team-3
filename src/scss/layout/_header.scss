@@ -2,7 +2,12 @@
   display: none;
 
   @media (min-width: 768px) {
-    display: inherit;
+    display: flex;
+  }
+}
+.nav_ul {
+  @media (min-width: 768px) {
+    flex-direction: row;
   }
 }
 
@@ -17,13 +22,12 @@
   background-color: white;
   padding: 10px;
   justify-content: space-between;
-
 }
 
-.list {
-  display: flex;
-  justify-content: flex-end;
-}
+// .list {
+//   display: flex;
+  
+// }
 
 .menuhambur {
   display: inline-flex;
