@@ -1,30 +1,27 @@
 <section>
     <h2>Te interesa? Hablanos</h2>
     <div class="Form">
-        <form action=""> <!-- añadir http -->
+        <form action="https://dev.adalab.es/api/form" method="get"> 
             <label for="Name">Nombre</label>
-            <input id="Name" type="text" name="Name">
+            <input id="Name" type="text" name="Name" required>
 
             <label for="Email">Email</label>
-            <input id="Email" type="text" name="Email">
+            <input id="Email" type="email" name="Email">
 
             <label for="Tell-us">Cuéntanos de tu proyecto</label>
             <input id="Tell-us" type="text" name="Tell-us">       
         </form>
     </div>
-    <input type="submit" value="Enviar"> 
-    <!-- He puesto esto arriba como opcion de boton que puso Ana-->
-        
-        <div form_button> 
-            <a href="">Enviar</a> 
-        </div>
-    </section>
-    <section>
-        <div class="image_map">
-            <img src="/public/images/mapa.png" alt="Map">
-        </div>
+    <div form_button>    
+        <button type="submit">Enviar</button>
+    </div>            
+</section>
 
-        <div class="form_gota">
-            <p>Listas para tu proyecto</p>
-        </div>
+<section>
+    <div class="image_map">
+        <img src="/public/images/mapa.png" alt="Map">
+    </div>
+    <div class="form_gota">
+        <p>Listas para tu proyecto</p>
+    </div>
 </section>
