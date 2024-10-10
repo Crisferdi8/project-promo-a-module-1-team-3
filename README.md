@@ -26,4 +26,16 @@ Nos despedimos:
 -Silvia
 -Raquel
 -Cristina
+### ¿Cómo arrancar nuestro proyecto?
 
+Muy fácil, al abrirlo en Visual Studio Code te abres una nueva terminal y una vez ahí pon esto:
+
+  npm install
+
+Verás que te ahora te aparece una nueva carpeta que se llama node_modules, pues vas por buen camino!!
+
+Una vez que se nos haya instalado la carpeta tan solo nos queda poner en la terminal el siguiente comando:
+
+  npm start o npm run dev (cualquiera de los dos te valdría, así que tu decides!!)
+
+Y Voilá! aquí tendrás abierto nuestro proyecto, esperamos que lo disfrutes.
