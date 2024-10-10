@@ -43,8 +43,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (min-width: 768px){
-    height: 350px;
+  @media (min-width: 768px) and (max-width: 1100px) {
+    height: 450px;
   }
 }
 
@@ -54,4 +54,8 @@
   font-size: 35px;
   position: absolute;
   text-align: center;
+  @media (min-width: 768px) and (max-width: 1100px) {
+    font-size: 60px;
+  }
 }
+

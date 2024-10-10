@@ -1,18 +1,15 @@
 .foot {
-  // display: flex;
   background-color: black;
-  padding-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 30px;
   color: #8447e9;
-  // justify-content: space-between;
 }
 
 .footer_div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
-
 
 .main-nav ul {
   @media (min-width: 768px) {
