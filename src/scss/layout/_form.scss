@@ -1,7 +1,54 @@
-.image_map{
-    & img{
+.image_map {
+    & img {
         width: 100vw;
         height: 50vh;
         margin: 3px;
+
+        @media (min-width: 768px) {
+            width: 200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+
+        }
     }
+
+}
+
+.container_form {
+    display: flex;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    align-items: center;
+}
+
+.form_input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 318px;
+    color: grey;
+}
+
+.container {
+    text-align: center;
+
+    & h2 {
+        font-size: 52px;
+        margin: 50px;
+    }
+}
+
+.form_button {
+    background-color: #8447e9;
+    border: none;
+    color: white;
+    padding: 20px;
+    padding: 14px 30px;
+    margin: 50px;
 }
