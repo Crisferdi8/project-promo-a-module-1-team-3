@@ -8,13 +8,17 @@
   justify-content: space-between;
 }
 
-.main-nav {
+.main-nav ul {
   display: none;
 
   @media (min-width: 768px) {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+    color: black;
   }
 }
+
 // .nav_ul {
 //   @media (min-width: 768px) {
 //     justify-content: space-around;
@@ -40,5 +44,6 @@
 
   @media (min-width: 768px) {
     display: none;
+
   }
 }

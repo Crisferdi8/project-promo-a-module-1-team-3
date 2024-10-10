@@ -5,8 +5,28 @@
   color: #8447e9;
   // justify-content: space-between;
 }
+
 .footer_div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+}
+
+.main-nav ul {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+    color: white;
+
+  }
+
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    gap: 77px;
+    color: white;
+
+  }
 }
