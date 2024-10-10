@@ -19,11 +19,7 @@
   }
 }
 
-// .nav_ul {
-//   @media (min-width: 768px) {
-//     justify-content: space-around;
-//   }
-// }
+
 
 .title {
   color: var(--first-color);
@@ -37,10 +33,12 @@
 // }
 
 .menuhambur {
+
+  margin-left: 231px;
+  display: flex;
   height: 25px;
   width: 25px;
   margin-top: 0;
-  top: 10px;
 
   @media (min-width: 768px) {
     display: none;

@@ -13,13 +13,14 @@
 
 }
 
+
 .main-nav ul {
   @media (min-width: 768px) {
     display: flex;
     justify-content: center;
     gap: 77px;
     color: white;
-
+    margin-right: 50px;
   }
 
   @media (min-width: 1024px) {
@@ -27,6 +28,6 @@
     justify-content: center;
     gap: 77px;
     color: white;
-
+    margin-right: 50px;
   }
 }
