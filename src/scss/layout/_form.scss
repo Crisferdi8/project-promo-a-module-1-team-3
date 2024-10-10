@@ -1,51 +1,52 @@
+
 .image_map {
-    &_def {
-        width: 100vw;
-        height: 50vh;
-        margin: 3px;
+  display: flex;
+  justify-content: center;
+  & img {
+    width: 100vw;
+    height: 50vh;
+    margin: 3px;
 
-        @media (min-width: 768px) {
-            width: 300px;
-            height: 400px;
-        }
+    @media (min-width: 768px) {
+      width: 450px;
+      height: 400px;
     }
-
+    @media (min-width: 1024px) {
+      width: 450px;
+      height: 400px;
+    }
+  }
 }
 
-// .container_form {
-//     display: flex;
-
-// }
-
 .form {
-    display: flex;
-    flex-direction: column;
-    color: grey;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  align-items: center;
 }
 
 .form_input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    width: 318px;
-    color: grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 318px;
+  color: grey;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
 
-    & h2 {
-        font-size: 52px;
-        margin: 50px;
-    }
+  & h2 {
+    font-size: 52px;
+    margin: 50px;
+  }
 }
 
 .form_button {
-    background-color: #8447e9;
-    border: none;
-    color: white;
-    padding: 20px;
-    padding: 14px 30px;
-    margin: 50px;
+  background-color: #8447e9;
+  border: none;
+  color: white;
+  padding: 20px;
+  padding: 14px 30px;
+  margin: 50px;
 }
