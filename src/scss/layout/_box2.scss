@@ -32,13 +32,16 @@
 
 .title-proyect2 {
   color: #ffffff;
-  margin-top: 20%;
-  margin-block-end: 13%;
-  margin-left: 20%;
+  margin-left: 7%;
+  margin-top: 10%;
 }
 
-.title-proyect2 p {
+.parraf2 {
   display: none;
+  font-size: 26px;
+  padding: 5%;
+  text-align: center;
+  color: #ffffff;
 
   @media (min-width: 768px) {
     display: inline-block;
