@@ -24,9 +24,7 @@
   }
 }
 
-.button-news {
-  margin: 30px;
-}
+
 
 .button-exp {
   text-decoration: none;
@@ -34,6 +32,11 @@
   color: var(--first-color);
   padding: 8px 26px;
 }
+.button-news {
+  margin: 30px;
+ 
+}
+
 
 .drop {
   background-image: url("../images/drop-of-water-inject-water-drip-45229.jpeg");
@@ -43,9 +46,13 @@
   height: 200px;
 }
 
-// .contactanos-final {
-//   // display: none;
-// }
+.contactanos-final {
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  // margin-left: 40%;
+
+}
 
 .drop p {
   color: white;
